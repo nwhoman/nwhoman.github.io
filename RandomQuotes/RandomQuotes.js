@@ -20,7 +20,7 @@ function NavigationBar() {
   
   const domNode = document.getElementById('#quote-box');
   const root = createRoot(domNode);
-  root.render(<NavigationBar />);
+  //root.render(<NavigationBar />);
   
 
 
