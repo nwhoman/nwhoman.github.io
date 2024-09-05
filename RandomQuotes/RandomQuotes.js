@@ -15,7 +15,7 @@ function MyApp() {
     return <h1>Hello, world!</h1>;
   }
 
-const container = document.getElementById('root');
+const container = document.getElementById('body');
 const root = ReactDOM.createRoot(container);
 root.render(<MyApp />);
 
