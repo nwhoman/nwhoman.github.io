@@ -18,8 +18,10 @@ function NavigationBar() {
     return <h1>Hello from React!</h1>;
   }
   
-  const domNode = document.getElementById('quote-box');
-  //const root = createRoot(domNode);
+  const domNode = document.getElementById('#quote-box');
+  const root = createRoot(domNode);
   domNode.render(<NavigationBar />);
+  
+
 
 
