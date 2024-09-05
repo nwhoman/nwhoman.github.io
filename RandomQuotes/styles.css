@@ -1,0 +1,30 @@
+:root {
+    --dark-grey: #1b1b32;
+    --light-grey: #f5f6f7;
+    --black: #000;
+    --white: #fff;
+    --grey: #3b3b4f;
+    --golden-yellow: #fecc4c;
+    --yellow: #ffcc4c;
+    --gold: #feac32;
+    --orange: #ffac33;
+    --dark-orange: #f89808;
+    --blue: #4040ed;
+    --light-blue: skyblue;
+  }body {
+    background-color: var(--dark-grey);
+    color: #f5f6f7;
+    text-align: center;
+  }
+  .main-body{
+    border-radius: 25px;
+    background-color: var(--blue);
+    width: 50%;
+    margin: auto;
+  }
+  #quote-box{
+    height: 200px;
+    width: 50%;
+    background-color: var(--light-blue);
+    margin: auto;
+  }
