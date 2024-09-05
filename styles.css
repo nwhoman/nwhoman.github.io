@@ -1,0 +1,64 @@
+:root {
+    --dark-grey: #1b1b32;
+    --light-grey: #f5f6f7;
+    --black: #000;
+    --white: #fff;
+    --grey: #3b3b4f;
+    --golden-yellow: #fecc4c;
+    --yellow: #ffcc4c;
+    --gold: #feac32;
+    --orange: #ffac33;
+    --dark-orange: #f89808;
+    --blue: #4040ed;
+    --light-blue: skyblue;
+  }
+  body {
+    background-color: var(--dark-grey);
+    color: #f5f6f7;
+    text-align: center;
+  }
+  .main-body{
+    border-radius: 25px;
+    background-color: var(--blue);
+    width: 50%;
+    margin: auto;
+  }
+  table{
+    width: 50%;
+    margin: auto;
+    border: 3px solid var(--light-blue);
+    text-align: left;
+    border-collapse: collapse;
+  }
+  td, th{
+    background-color: var(--light-blue);
+    border: 3px solid var(--blue);
+    color: var(--blue);
+  }
+  #info{
+    height: 200px;
+    width: 50%;
+    background-color: var(--light-blue);
+    margin: auto;
+  }
+  #types{
+    height: 50px;
+    width: 50%;
+    background-color: var(--light-blue);
+    margin: auto;
+  }
+  button{
+    background-color: var(--light-blue);
+    border-radius: 5px;
+    color: var(--blue);
+    border: none;
+  }
+  .infoElement{
+    color: var(--blue);
+  }
+  .type-button{
+    background-color: var(--blue);
+    color: var(--light-blue);
+    margin: 5px;
+  }
+    

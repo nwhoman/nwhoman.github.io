@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokeman Search</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div >
+      <span class="header">
+        <h1>Pokeman Search App</h1>
+      </span>
+      <div class="main-body">
+        <div>
+            <div>
+                <span width="100%"><label for="number">Search for Pokeman Name or ID</label></span>
+            </div>
+            <div>
+                <span><input id="search-input" type="text" required/><button id="search-button" >Search</button></span>
+            </div>
+            <div>
+                <span></span>
+            </div>
+        </div>
+        <div id="info">
+          <div id="pokemon-name" class="infoElement"></div>
+          <div id="pokemon-id" class="infoElement"></div>
+          <div id="weight" class="infoElement"></div>
+          <div id="height" class="infoElement"></div>
+          <img id="sprite" class="char-img" src="" alt="">
+        </div>
+        <div id="types"></div>
+        <table >
+            <tr><th>Base</th><th>Stats</th></tr>
+            <tr><td>HP:</td><td id="hp" class="base-stats"></td></tr>
+            <tr><td>Attack:</td><td id="attack" class="base-stats"></td></tr>
+            <tr><td>Defense:</td><td id="defense" class="base-stats"></td></tr>
+            <tr><td>Sp. Attack:</td><td id="special-attack" class="base-stats"></td></tr>
+            <tr><td>Sp. Defense:</td><td id="special-defense" class="base-stats"></td></tr>
+            <tr><td>Speed:</td><td id="speed" class="base-stats"></td></tr>
+    
+        </table>
+      </div>
+      
+    
+    </div>
+    <script src="./Pokeman.js"></script>
+    </body>
+</html>
