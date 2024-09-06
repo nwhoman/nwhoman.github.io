@@ -9,7 +9,7 @@ class LikeButton extends React.Component {
   }
 
   render() {
-    return <div>{this.state.count}</div>;;
+    return <div>Neal Homan</div>;;
   }
 }
 const domContainer = document.querySelector('#root');
