@@ -5,22 +5,18 @@ const e = React.createElement;
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { liked: false };
+    this.state = { count: 0 };
   }
 
   render() {
-    return (
-        <div id="quote-box">Neal Homan
-        
-        </div>
-    );
+    return <div>{this.state.count}</div>;;
   }
 }
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
-root.render(<LikeButton />);
+root.render(e(LikeButton));
   
-/*class DisplayText extends React.Component {
+class DisplayText extends React.Component {
     constructor(props) {
         super(props);
         
@@ -28,13 +24,13 @@ root.render(<LikeButton />);
     
       render() {
         return (
-            <div id="text">is working on it
+            <div id="quote-box">
             
             </div>
         )
     }
 }
 const quoteBox = document.querySelector("#quote-box")
-root.render(e(DisplayText));*/
+//root.render(e(DisplayText));
 
 
