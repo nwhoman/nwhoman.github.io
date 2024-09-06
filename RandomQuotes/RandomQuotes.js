@@ -13,14 +13,13 @@ const store = createStore(
 );*/
 import { createRoot } from 'react-dom/client';
 
-function NavigationBar() {
-    // TODO: Actually implement a navigation bar
-    return <h1>Hello from React!</h1>;
+function MyApp() {
+    return <h1>Neal Homan</h1>;
   }
-  
-  const domNode = document.getElementById('#quote-box');
-  const root = createRoot(domNode);
-  //root.render(<NavigationBar />);
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<MyApp />);
   
 
 
