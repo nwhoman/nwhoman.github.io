@@ -1,25 +1,28 @@
-/*import React from 'react'
-import ReactDOM from 'react-dom'
-import { Provider, connect } from 'react-redux'
-import { createStore, combineReducers, applyMiddleware } from 'redux'
-import thunk from 'redux-thunk'
+'use strict';
 
-import rootReducer from './redux/reducers'
-import App from './components/App'
+const e = React.createElement;
 
-const store = createStore(
-  rootReducer,
-  applyMiddleware(thunk)
-);*/
-//import { createRoot } from 'react-dom/client';
-
-function MyApp() {
-    return <h1>Neal Homan</h1>;
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
   }
 
-  const container = document.getElementById('root');
-  const root = ReactDOM.createRoot(container);
-  root.render(<MyApp />);
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
+
+    return e(
+      'button',
+      { onClick: () => this.setState({ liked: true }) },
+      'Like'
+    );
+  }
+}
+const domContainer = document.querySelector('#like_button_container');
+const root = ReactDOM.createRoot(domContainer);
+root.render(e(LikeButton));
   
 
 
