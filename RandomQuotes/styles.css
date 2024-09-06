@@ -21,10 +21,18 @@
     background-color: var(--blue);
     width: 50%;
     margin: auto;
+    padding: 20px;
   }
   #quote-box{
     height: 200px;
     width: 50%;
     background-color: var(--light-blue);
+    color: var(--blue);
     margin: auto;
+  }
+  button{
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: var(--light-blue);
+    border: none;
   }

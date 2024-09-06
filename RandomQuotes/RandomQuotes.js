@@ -1,8 +1,12 @@
 'use strict';
-
+const getQuote = document.getElementById("new-quote");
 const e = React.createElement;
 
-class LikeButton extends React.Component {
+function newQuote(){
+
+}
+
+class DisplayText extends React.Component {
   constructor(props) {
     super(props);
     this.state = { count: 0 };
@@ -10,15 +14,19 @@ class LikeButton extends React.Component {
 
   render() {
     return <div  id="quote-box">Neal Homan
-        <div id="text">
-        Quote Text
-        </div>
-    </div>;
+                <div id="text">
+                    Quote Text
+                </div>
+                <button id="search-button" >New Quote</button>
+                <div id="author">
+                    by Author
+                </div>
+            </div>;
   }
 }
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
-root.render(e(LikeButton));
+root.render(e(DisplayText));
   
 /*class DisplayText extends React.Component {
     constructor(props) {
@@ -35,4 +43,4 @@ root.render(e(LikeButton));
 const quoteBox = document.querySelector("#quote-box")*/
 //root.render(e(DisplayText));
 
-
+getQuote.addEventListener("click", newQuote);
