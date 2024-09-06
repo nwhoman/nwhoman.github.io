@@ -9,7 +9,7 @@ class LikeButton extends React.Component {
   }
 
   render() {
-    return <div>Neal Homan</div>;;
+    return <div  id="quote-box">Neal Homan</div>;
   }
 }
 const domContainer = document.querySelector('#root');
@@ -24,13 +24,13 @@ class DisplayText extends React.Component {
     
       render() {
         return (
-            <div id="quote-box">
-            
+            <div id="text">
+            Quote Text
             </div>
         )
     }
 }
 const quoteBox = document.querySelector("#quote-box")
-//root.render(e(DisplayText));
+root.render(e(DisplayText));
 
 
