@@ -48,7 +48,7 @@ class DisplayText extends React.Component {
      this.getQuote = this.getQuote.bind(this);
 
   }
-  getQuote(event){
+  getQuote(){
     const newQuote = pickQuote();
   
     this.setState({
@@ -60,7 +60,7 @@ class DisplayText extends React.Component {
 }
 
   render() {
-    return <div  id="quote-box">Neal Homan
+    return <div  id="quote-box">Daily Quote
                 <div id="text">
                     {this.state.quote}
                 </div>
@@ -71,6 +71,7 @@ class DisplayText extends React.Component {
             </div>;
   }
 }
+getQuote();
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
 root.render(e(DisplayText));
