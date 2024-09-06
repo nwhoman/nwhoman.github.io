@@ -1,5 +1,5 @@
 'use strict';
-const getQuote = document.getElementById("new-quote");
+//const getQuote = document.getElementById("new-quote");
 
 const quotes = [
     {
@@ -35,6 +35,7 @@ const e = React.createElement;
 
 function pickQuote(){
     const randNum = Math.floor(Math.random * 6);
+    console.log(quotes[randNum]);
     return quotes[randNum];
 }
 
