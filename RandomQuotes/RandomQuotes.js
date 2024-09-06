@@ -9,14 +9,10 @@ class LikeButton extends React.Component {
   }
 
   render() {
-    if (this.state.liked) {
-      return 'You liked this.';
-    }
-
-    return e(
-      'button',
-      { onClick: () => this.setState({ liked: true }) },
-      'Like'
+    return (
+        <div id="quote-box">Neal Homan
+        
+        </div>
     );
   }
 }
@@ -32,12 +28,13 @@ class DisplayText extends React.Component {
     
       render() {
         return (
-            <div>
-              <h2>Type in a new Message:</h2>
+            <div id="text">is working on it
+            
             </div>
         )
     }
 }
+const quoteBox = document.querySelector("#quote-box")
 root.render(e(DisplayText));
 
 
