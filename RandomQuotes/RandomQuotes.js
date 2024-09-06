@@ -20,10 +20,24 @@ class LikeButton extends React.Component {
     );
   }
 }
-const domContainer = document.querySelector('#like_button_container');
+const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
 root.render(e(LikeButton));
   
-
+class DisplayText extends React.Component {
+    constructor(props) {
+        super(props);
+        
+      }
+    
+      render() {
+        return (
+            <div>
+              <h2>Type in a new Message:</h2>
+            </div>
+        )
+    }
+}
+root.render(e(DisplayText));
 
 
