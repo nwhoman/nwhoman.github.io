@@ -30,7 +30,7 @@
     color: var(--blue);
     margin: auto;
   }
-  button{
+  .button{
     background-color: var(--blue);
     border-radius: 5px;
     color: var(--light-blue);
