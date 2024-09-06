@@ -60,14 +60,15 @@ class DisplayText extends React.Component {
 }
 
   render() {
-    return <div  id="quote-box">Daily Quote
+    return <div  id="quote-box">
+            <div id="heading"> Daily Quote </div>
                 <div id="text">
                     {this.state.quote}
                 </div>
-                <button id="new-quote" onClick={this.getQuote}>New Quote</button>
                 <div id="author">
                     - {this.state.author}
                 </div>
+                <button id="new-quote" onClick={this.getQuote}>New Quote</button>
             </div>;
   }
 }

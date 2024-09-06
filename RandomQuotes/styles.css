@@ -35,4 +35,14 @@
     border-radius: 5px;
     color: var(--light-blue);
     border: none;
+    height: 25px;
+    width: 50px;
+    
+  }
+  #heading{
+    font-size: xx-large;
+    color: var(--gold);
+  }
+  #author{
+    text-align: right;
   }
