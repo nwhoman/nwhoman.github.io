@@ -35,7 +35,7 @@ const e = React.createElement;
 
 function pickQuote(){
     const randNum = Math.floor(Math.random * 6);
-    console.log(quotes[randNum]);
+    console.log(randNum);
     return quotes[randNum];
 }
 
