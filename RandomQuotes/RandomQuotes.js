@@ -9,7 +9,7 @@ class LikeButton extends React.Component {
   }
 
   render() {
-    return e(
+    return (
         <div id="quote-box">Neal Homan
         
         </div>
@@ -18,7 +18,7 @@ class LikeButton extends React.Component {
 }
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
-root.render(e(LikeButton));
+root.render(LikeButton);
   
 /*class DisplayText extends React.Component {
     constructor(props) {
