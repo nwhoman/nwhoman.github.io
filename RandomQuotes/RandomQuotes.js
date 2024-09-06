@@ -42,8 +42,8 @@ function pickQuote(){
 class DisplayText extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { quote: '',
-        author: ''
+    this.state = { quote: quotes[0].quote,
+        author: quotes[0].author
      };
      this.getQuote = this.getQuote.bind(this);
 
@@ -71,7 +71,6 @@ class DisplayText extends React.Component {
             </div>;
   }
 }
-getQuote();
 const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
 root.render(e(DisplayText));
