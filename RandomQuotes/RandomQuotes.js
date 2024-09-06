@@ -69,7 +69,7 @@ class DisplayText extends React.Component {
                     - {this.state.author}
                 </div>
                 <span>
-                    <a id="tweet-quote" href="https://www.twitter.com/intent/tweet" class="button" ><button >Tweet</button></a>
+                    <a id="tweet-quote" href="https://www.twitter.com/intent/tweet"><button class="button">Tweet</button></a>
                     <button class="button" id="new-quote" onClick={this.getQuote}>New Quote</button>
                 </span>
             </div>;
