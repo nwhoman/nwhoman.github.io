@@ -1,6 +1,6 @@
-/*import React from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
-import { Provider, connect } from 'react-redux'
+/*import { Provider, connect } from 'react-redux'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
 
@@ -11,7 +11,7 @@ const store = createStore(
   rootReducer,
   applyMiddleware(thunk)
 );*/
-import { createRoot } from 'react-dom/client';
+//import { createRoot } from 'react-dom/client';
 
 function MyApp() {
     return <h1>Neal Homan</h1>;
