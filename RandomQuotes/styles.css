@@ -37,7 +37,7 @@
     border: none;
     height: 50px;
     width: 100px;
-    margin: auto;
+    
   }
   #heading{
     font-size: xx-large;
@@ -45,4 +45,7 @@
   }
   #author{
     text-align: right;
+  }
+  #button-bar{
+    margin: auto;
   }
