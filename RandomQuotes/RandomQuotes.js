@@ -20,7 +20,7 @@ const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
 root.render(e(LikeButton));
   
-class DisplayText extends React.Component {
+/*class DisplayText extends React.Component {
     constructor(props) {
         super(props);
         
@@ -35,6 +35,6 @@ class DisplayText extends React.Component {
     }
 }
 const quoteBox = document.querySelector("#quote-box")
-root.render(e(DisplayText));
+root.render(e(DisplayText));*/
 
 
