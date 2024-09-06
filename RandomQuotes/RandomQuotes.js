@@ -89,4 +89,3 @@ root.render(e(DisplayText));
 const quoteBox = document.querySelector("#quote-box")*/
 //root.render(e(DisplayText));
 
-getQuote.addEventListener("click", newQuote);
