@@ -1,0 +1,15 @@
+2024-10-16 18:15:38.585 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-10-16 18:15:38.585 [info] Activation> Extension version: 0.98.0
+2024-10-16 18:15:39.501 [info] Looking for git repository
+2024-10-16 18:15:39.501 [info] Found 0 repositories during activation
+2024-10-16 18:15:39.501 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-16 18:15:39.556 [info] Registering git provider
+2024-10-16 18:15:39.556 [info] Review+0> Validate state in progress
+2024-10-16 18:15:39.556 [info] Review+0> Validating state...
+2024-10-16 18:15:39.786 [info] Found GitHub remote for folder /workspace/boilerplate-project-issuetracker
+2024-10-16 18:15:39.788 [info] Trying to use globalState for assignableUsers.
+2024-10-16 18:15:39.880 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-16 18:15:39.880 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-16 18:15:39.892 [info] GlobalState does not exist for assignableUsers.
+2024-10-16 18:49:35.574 [info] Repo state for file:///workspace/boilerplate-project-issuetracker changed.
+2024-10-16 18:49:35.575 [info] Repo file:///workspace/boilerplate-project-issuetracker has already been setup.

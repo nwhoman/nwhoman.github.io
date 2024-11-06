@@ -1,0 +1,36 @@
+2024-09-24 21:53:20.350 [info] Extension host with pid 7015 started
+2024-09-24 21:53:20.350 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock'
+2024-09-24 21:53:20.352 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-24 21:53:20.353 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock': The lock does not look stale, elapsed: 540 ms, giving up.
+2024-09-24 21:53:20.361 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab-1/vscode.lock': Lock acquired.
+2024-09-24 21:53:20.458 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2024-09-24 21:53:20.459 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-24 21:53:20.459 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-09-24 21:53:20.664 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-24 21:53:20.664 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2024-09-24 21:53:20.864 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-09-24 21:53:21.134 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-24 21:53:21.134 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-24 21:53:22.717 [info] Eager extensions activated
+2024-09-24 21:53:22.718 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-24 21:53:22.718 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-24 21:53:22.719 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-09-24 21:53:23.437 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-09-24 21:53:23.731 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-09-24 21:53:24.909 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-09-24 21:53:24.911 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-09-24 21:53:26.247 [error] Error: EEXIST: file already exists, open '/tmp/tmp_vsix_65004081c051c29d219eda6b12e164a3'
+2024-09-24 21:53:27.086 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-24 21:53:27.087 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-24 21:53:27.087 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-24 21:53:57.254 [error] Error: Request timeout after 30s
+	at ClientRequest.<anonymous> (/ide/extensions/gitpod-web/out/extension.js:2:1430764)
+	at Object.onceWrapper (node:events:633:28)
+	at ClientRequest.emit (node:events:519:28)
+	at TLSSocket.emitRequestTimeout (node:_http_client:845:9)
+	at Object.onceWrapper (node:events:633:28)
+	at TLSSocket.emit (node:events:531:35)
+	at Socket._onTimeout (node:net:590:8)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-09-24 22:12:09.631 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

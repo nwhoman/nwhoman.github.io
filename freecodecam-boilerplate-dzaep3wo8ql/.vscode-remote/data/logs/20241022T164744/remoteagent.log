@@ -1,0 +1,37 @@
+2024-10-22 16:47:45.058 [info] 
+
+
+
+
+2024-10-22 16:47:45.078 [info] Extension host agent started.
+2024-10-22 16:47:45.095 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-10-22 16:47:45.373 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-10-22 16:47:45.394 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-10-22 16:47:46.665 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-10-22 16:47:46.687 [info] Getting Manifest... github.vscode-pull-request-github
+2024-10-22 16:47:47.043 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2","date":"2024-10-15T18:55:37.897Z"}}
+2024-10-22 16:47:48.602 [error] Could not load vsce-sign module Dynamic require of "node-ovsx-sign" is not supported
+2024-10-22 16:47:48.602 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-10-22 16:47:48.670 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.98.0-universal: github.vscode-pull-request-github
+2024-10-22 16:47:48.675 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.98.0-universal
+2024-10-22 16:47:48.689 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-10-22 16:47:48.689 [info] Extension 'github.vscode-pull-request-github' v0.98.0 was successfully installed.
+2024-10-22 16:47:49.231 [info] [192.168.179.202][9e9f2f3f][ManagementConnection] New connection established.
+2024-10-22 16:47:50.361 [info] [192.168.194.137][d6b4b9fe][ExtensionHostConnection] New connection established.
+2024-10-22 16:47:50.367 [info] [192.168.194.137][d6b4b9fe][ExtensionHostConnection] <136> Launched Extension Host Process.
+2024-10-22 18:12:57.637 [info] [192.168.179.202][9e9f2f3f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-22 18:12:59.268 [info] [192.168.194.137][1671d688][ManagementConnection] New connection established.
+2024-10-22 18:12:59.593 [info] [192.168.155.75][f8c0e4fd][ExtensionHostConnection] New connection established.
+2024-10-22 18:12:59.599 [info] [192.168.155.75][f8c0e4fd][ExtensionHostConnection] <5665> Launched Extension Host Process.
+2024-10-22 20:07:08.164 [info] [192.168.155.75][1671d688][ManagementConnection] The client has reconnected.
+2024-10-22 20:07:08.295 [info] [192.168.194.137][f8c0e4fd][ExtensionHostConnection] The client has reconnected.
+2024-10-22 20:28:47.783 [info] [192.168.155.75][1671d688][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-22 20:28:50.560 [info] [192.168.155.75][0696e084][ManagementConnection] New connection established.
+2024-10-22 20:28:50.608 [info] [192.168.194.137][528bca15][ExtensionHostConnection] New connection established.
+2024-10-22 20:28:50.616 [info] [192.168.194.137][528bca15][ExtensionHostConnection] <17697> Launched Extension Host Process.
+2024-10-22 22:55:03.407 [info] [192.168.155.75][0696e084][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-22 23:09:17.044 [info] [192.168.155.75][0696e084][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-10-22 23:09:17.045 [info] [192.168.179.202][528bca15][ExtensionHostConnection] The client has reconnected.
+2024-10-22 23:09:17.144 [info] [192.168.155.75][0696e084][ManagementConnection] The client has reconnected.
+2024-10-22 23:14:17.256 [info] [192.168.194.137][f8c0e4fd][ExtensionHostConnection] <5665> Extension Host Process exited with code: 0, signal: null.
+2024-10-22 23:14:17.447 [info] [192.168.194.137][d6b4b9fe][ExtensionHostConnection] <136> Extension Host Process exited with code: 0, signal: null.

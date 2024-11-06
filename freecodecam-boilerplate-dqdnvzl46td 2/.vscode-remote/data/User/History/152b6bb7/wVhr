@@ -1,0 +1,6 @@
+PORT=3000
+NODE_ENV=development
+MONGO_URI='mongodb+srv://test:test@cluster0.pfq9jw1.mongodb.net/fcc_exercise_db?retryWrites=true&w=majority'
+SESSION_SECRET=7
+GITHUB_CLIENT_SECRET='411f61ef09d605b71a7578e74b07f3a04697dab2'
+GITHUB_CLIENT_ID='Ov23liSFL5NP1z1iXMbE'

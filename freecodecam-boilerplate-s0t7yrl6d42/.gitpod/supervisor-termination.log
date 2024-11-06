@@ -1,0 +1,46 @@
+[291ns] Shutting down all processes 
+[226.07µs] Terminating process supervisor with PID 35 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.007434842s] Terminating process didn't finish, but had to be force killed 
+[15.007828772s] Terminating process node with PID 316 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=120] <nil>). 
+[15.007843382s] Terminating process node with PID 151 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20240924T232323] <nil>). 
+[15.007850292s] Terminating process npm run start with PID 93 (state: S, cmdlind: [npm run start] <nil>). 
+[15.007925502s] Terminating process node with PID 105 (state: S, cmdlind: [node index.js] <nil>). 
+[15.007966652s] Terminating process didn't finish, but had to be force killed 
+[15.007993312s] Terminating process didn't finish, but had to be force killed 
+[15.008021202s] Terminating process didn't finish, but had to be force killed 
+[15.008042332s] Terminating process bash with PID 165 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[15.008059002s] Terminating process sh with PID 104 (state: S, cmdlind: [sh -c node index.js] <nil>). 
+[15.007904562s] Terminating process didn't finish, but had to be force killed 
+[15.008097022s] Terminating process node with PID 138 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[15.008098592s] Terminating process didn't finish, but had to be force killed 
+[15.008069752s] Terminating process didn't finish, but had to be force killed 
+[15.008159762s] Terminating process bash with PID 82 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.008181842s] Terminating process didn't finish, but had to be force killed 
+[15.008189192s] Terminating process node with PID 184 (state: S, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript33333/f1a25d5f9c7672d28519/tscancellation-220a937647679397dfef.tmp* --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.008201752s] Terminating process didn't finish, but had to be force killed 
+[15.008215892s] Terminating process node with PID 200 (state: S, cmdlind: [/ide/node /ide/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/gitpod/.cache/typescript/5.5 --enableTelemetry --typesMapLocation /ide/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation] <nil>). 
+[15.008244912s] Terminating process didn't finish, but had to be force killed 
+[15.008265082s] Terminating process node with PID 185 (state: S, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/f1a25d5f9c7672d28519/tscancellation-dc67e19c52629ba97770.tmp* --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.008276952s] Terminating process didn't finish, but had to be force killed 
+[15.008338292s] Terminating process didn't finish, but had to be force killed 
+[15.008350242s] Terminating process node with PID 246 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=120] <nil>). 
+[15.008361332s] Terminating process node with PID 70 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.008362382s] Terminating process node with PID 120 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.008426442s] Terminating process didn't finish, but had to be force killed 
+[15.008441402s] Terminating process didn't finish, but had to be force killed 
+[15.008595162s] Terminating process didn't finish, but had to be force killed 
+[15.008998292s] Terminating process node with PID 120 (state: R, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.009023852s] Terminating process didn't finish, but had to be force killed 
+[15.009028052s] Terminating process node with PID 200 (state: R, cmdlind: [/ide/node /ide/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/gitpod/.cache/typescript/5.5 --enableTelemetry --typesMapLocation /ide/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation] <nil>). 
+[15.009039072s] Terminating process didn't finish, but had to be force killed 
+[15.009054692s] Terminating process bash with PID 165 (state: R, cmdlind: [] <nil>). 
+[15.009069202s] Terminating process didn't finish, but had to be force killed 
+[15.009110622s] Terminating process bash with PID 82 (state: R, cmdlind: [] <nil>). 
+[15.009123602s] Terminating process didn't finish, but had to be force killed 
+[15.015044831s] Couldn't obtain process information for PID 105. 
+[15.016729151s] Couldn't obtain process information for PID 151. 
+[15.01960867s] Couldn't obtain process information for PID 93. 
+[15.076767304s] Couldn't obtain process information for PID 246. 
+[15.086847853s] Couldn't obtain process information for PID 185. 
+[15.086943763s] Couldn't obtain process information for PID 200. 
+[15.507957538s] Finished shutting down all processes. 

@@ -1,0 +1,15 @@
+2024-09-24 21:53:24.037 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-09-24 21:53:24.037 [info] Activation> Extension version: 0.96.0
+2024-09-24 21:53:25.136 [info] Looking for git repository
+2024-09-24 21:53:25.136 [info] Found 0 repositories during activation
+2024-09-24 21:53:25.136 [info] Git repository found, initializing review manager and pr tree view.
+2024-09-24 21:53:25.140 [info] Registering git provider
+2024-09-24 21:53:25.140 [info] Review+0> Validate state in progress
+2024-09-24 21:53:25.140 [info] Review+0> Validating state...
+2024-09-24 21:53:25.229 [info] Found GitHub remote for folder /workspace/boilerplate-project-urlshortener
+2024-09-24 21:53:25.231 [info] Trying to use globalState for assignableUsers.
+2024-09-24 21:53:25.238 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-09-24 21:53:25.238 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-09-24 21:53:25.299 [info] GlobalState does not exist for assignableUsers.
+2024-09-24 21:53:39.678 [info] Repo state for file:///workspace/boilerplate-project-urlshortener changed.
+2024-09-24 21:53:39.678 [info] Repo file:///workspace/boilerplate-project-urlshortener has already been setup.

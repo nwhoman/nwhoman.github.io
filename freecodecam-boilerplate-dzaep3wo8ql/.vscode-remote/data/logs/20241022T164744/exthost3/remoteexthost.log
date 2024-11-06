@@ -1,0 +1,27 @@
+2024-10-22 20:28:51.351 [info] Extension host with pid 17697 started
+2024-10-22 20:28:51.351 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119/vscode.lock'
+2024-10-22 20:28:51.354 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-22 20:28:51.354 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119/vscode.lock': The lock does not look stale, elapsed: 951 ms, giving up.
+2024-10-22 20:28:51.355 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119-1/vscode.lock'
+2024-10-22 20:28:51.355 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-22 20:28:51.356 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119-1/vscode.lock': The lock does not look stale, elapsed: 117 ms, giving up.
+2024-10-22 20:28:51.358 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-153fa119-2/vscode.lock': Lock acquired.
+2024-10-22 20:28:51.479 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2024-10-22 20:28:51.480 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 20:28:51.480 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-10-22 20:28:51.690 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-22 20:28:51.690 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2024-10-22 20:28:51.940 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-22 20:28:52.127 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-22 20:28:52.128 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-22 20:28:53.833 [info] Eager extensions activated
+2024-10-22 20:28:53.833 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 20:28:53.834 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 20:28:53.834 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-10-22 20:28:55.124 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 20:28:55.630 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-10-22 20:28:56.626 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-22 20:28:56.627 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-22 20:28:58.656 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 20:28:58.656 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 20:28:58.656 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'

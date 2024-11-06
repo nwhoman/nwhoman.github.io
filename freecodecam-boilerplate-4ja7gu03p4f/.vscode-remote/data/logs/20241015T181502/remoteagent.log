@@ -1,0 +1,23 @@
+2024-10-15 18:15:03.021 [info] 
+
+
+
+
+2024-10-15 18:15:03.044 [info] Extension host agent started.
+2024-10-15 18:15:03.271 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-10-15 18:15:03.272 [info] Extension 'github.vscode-pull-request-github' v0.98.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-10-15 18:15:05.140 [info] [192.168.155.75][241332e0][ManagementConnection] New connection established.
+2024-10-15 18:15:05.208 [info] [192.168.194.137][985be6b5][ExtensionHostConnection] New connection established.
+2024-10-15 18:15:05.292 [info] [192.168.194.137][985be6b5][ExtensionHostConnection] <121> Launched Extension Host Process.
+2024-10-15 18:41:09.071 [info] [192.168.155.75][985be6b5][ExtensionHostConnection] The client has reconnected.
+2024-10-15 18:41:09.073 [info] [192.168.179.202][241332e0][ManagementConnection] The client has reconnected.
+2024-10-15 18:59:21.899 [info] [192.168.155.75][985be6b5][ExtensionHostConnection] The client has reconnected.
+2024-10-15 18:59:21.992 [info] [192.168.155.75][241332e0][ManagementConnection] The client has reconnected.
+2024-10-15 19:23:37.073 [info] [192.168.155.75][241332e0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-15 19:30:35.573 [info] [192.168.155.75][241332e0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-10-15 19:30:35.573 [info] [192.168.155.75][985be6b5][ExtensionHostConnection] The client has reconnected.
+2024-10-15 19:30:35.613 [info] [192.168.179.202][241332e0][ManagementConnection] The client has reconnected.
+2024-10-15 19:47:28.503 [info] [192.168.179.202][241332e0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-15 19:54:11.160 [info] [192.168.179.202][241332e0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-10-15 19:54:11.161 [info] [192.168.194.137][241332e0][ManagementConnection] The client has reconnected.
+2024-10-15 19:54:11.162 [info] [192.168.179.202][985be6b5][ExtensionHostConnection] The client has reconnected.

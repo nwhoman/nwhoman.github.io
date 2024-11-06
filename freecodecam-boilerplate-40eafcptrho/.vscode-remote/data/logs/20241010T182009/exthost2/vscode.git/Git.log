@@ -1,0 +1,39 @@
+2024-10-10 18:26:43.056 [info] [main] Log level: Info
+2024-10-10 18:26:43.057 [info] [main] Validating found git in: "git"
+2024-10-10 18:26:43.057 [info] [main] Using git "2.46.0" from "git"
+2024-10-10 18:26:43.057 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [185ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-10-10 18:26:43.057 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-project-metricimpconverter
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-10 18:26:43.057 [info] > git config --get commit.template [10ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-10 18:26:43.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-10 18:26:43.057 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-metricimpconverter/.git/refs/remotes/origin/main'
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-10 18:26:43.057 [info] > git status -z -uall [6ms]
+2024-10-10 18:26:43.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [18ms]
+2024-10-10 18:26:43.057 [info] > git config --get commit.template [5ms]
+2024-10-10 18:26:43.057 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-10-10 18:26:43.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-10 18:26:43.057 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-10 18:26:43.057 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-metricimpconverter/.git/refs/remotes/origin/main'
+2024-10-10 18:26:43.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2024-10-10 18:26:43.057 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2024-10-10 18:26:43.057 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-10-10 18:26:43.057 [info] > git status -z -uall [4ms]
+2024-10-10 18:26:43.057 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [7ms]
+2024-10-10 18:26:43.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-10 18:26:43.057 [info] > git diff --name-status -z --diff-filter=ADMR 3de81bc68b2943aa530f3fc3999cb32fbac332b6...refs/remotes/origin/main [9ms]
+2024-10-10 18:26:43.057 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-10-10 18:26:43.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2024-10-10 18:26:43.525 [info] > git show --textconv :controllers/convertHandler.js [4ms]
+2024-10-10 18:26:43.527 [info] > git ls-files --stage -- /workspace/boilerplate-project-metricimpconverter/controllers/convertHandler.js [3ms]
+2024-10-10 18:26:43.533 [info] > git cat-file -s 90273d29583cdf23f9a45b45e613064df0a1fa29 [3ms]
+2024-10-10 18:26:43.564 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-10 18:26:43.885 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-10-10 18:26:43.885 [warning] [Git][config] git config failed: Failed to execute git

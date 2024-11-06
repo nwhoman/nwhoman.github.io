@@ -1,0 +1,47 @@
+2024-10-14 18:18:14.919 [info] [main] Log level: Info
+2024-10-14 18:18:14.919 [info] [main] Validating found git in: "git"
+2024-10-14 18:18:14.919 [info] [main] Using git "2.46.0" from "git"
+2024-10-14 18:18:14.919 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-14 18:18:14.919 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-14 18:18:14.919 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-14 18:18:14.919 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-advancednode
+2024-10-14 18:18:14.919 [info] > git rev-parse --show-toplevel [33ms]
+2024-10-14 18:18:14.919 [info] > git config --get commit.template [36ms]
+2024-10-14 18:18:14.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-14 18:18:14.919 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-14 18:18:14.919 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-advancednode/.git/refs/remotes/origin/main'
+2024-10-14 18:18:14.919 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-10-14 18:18:14.919 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-14 18:18:14.919 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-14 18:18:14.919 [info] > git status -z -uall [137ms]
+2024-10-14 18:18:14.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2024-10-14 18:18:14.920 [info] > git config --get commit.template [14ms]
+2024-10-14 18:18:14.921 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-10-14 18:18:14.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-10-14 18:18:14.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-14 18:18:14.942 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-advancednode/.git/refs/remotes/origin/main'
+2024-10-14 18:18:14.945 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2024-10-14 18:18:14.949 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-10-14 18:18:14.953 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-10-14 18:18:14.957 [info] > git status -z -uall [5ms]
+2024-10-14 18:18:14.985 [info] > git diff --name-status -z --diff-filter=ADMR f9f0b98e9ae11d1cf288379d833be86d2d0455c3...refs/remotes/origin/main [29ms]
+2024-10-14 18:18:14.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2024-10-14 18:18:15.000 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-14 18:18:15.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-10-14 18:18:15.425 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-14 18:18:15.694 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-10-14 18:18:15.694 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-14 18:18:21.026 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-14 18:18:28.154 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-14 18:18:38.237 [info] > git show --textconv :auth.js [5ms]
+2024-10-14 18:18:38.239 [info] > git ls-files --stage -- /workspace/boilerplate-advancednode/auth.js [2ms]
+2024-10-14 18:18:38.244 [info] > git cat-file -s 3fda308a64c893e819f215dd4062cd4c25c6a7c8 [2ms]
+2024-10-14 18:18:49.079 [info] > git show --textconv :routes.js [4ms]
+2024-10-14 18:18:49.080 [info] > git ls-files --stage -- /workspace/boilerplate-advancednode/routes.js [2ms]
+2024-10-14 18:18:49.085 [info] > git cat-file -s 05544b23de46d2da2230d1bbc54a9c5891fe3744 [2ms]
+2024-10-14 18:34:33.411 [info] > git show --textconv :server.js [4ms]
+2024-10-14 18:34:33.413 [info] > git ls-files --stage -- /workspace/boilerplate-advancednode/server.js [1ms]
+2024-10-14 18:34:33.418 [info] > git cat-file -s c2dd00e722579251fca40468d626045f44b14669 [2ms]
+2024-10-14 18:52:10.926 [info] > git show --textconv :routes.js [4ms]
+2024-10-14 18:52:10.927 [info] > git ls-files --stage -- /workspace/boilerplate-advancednode/routes.js [2ms]
+2024-10-14 18:52:10.932 [info] > git cat-file -s 05544b23de46d2da2230d1bbc54a9c5891fe3744 [2ms]

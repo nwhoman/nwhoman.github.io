@@ -1,0 +1,50 @@
+2024-10-10 18:20:13.948 [info] [main] Log level: Info
+2024-10-10 18:20:13.948 [info] [main] Validating found git in: "git"
+2024-10-10 18:20:13.948 [info] [main] Using git "2.46.0" from "git"
+2024-10-10 18:20:13.948 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-10 18:20:13.948 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-project-metricimpconverter
+2024-10-10 18:20:13.948 [info] > git config --get commit.template [6ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [82ms]
+2024-10-10 18:20:13.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [69ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [127ms]
+2024-10-10 18:20:13.948 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-metricimpconverter/.git/refs/remotes/origin/main'
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2024-10-10 18:20:13.948 [info] > git status -z -uall [100ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [96ms]
+2024-10-10 18:20:13.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-10-10 18:20:13.948 [info] > git config --get commit.template [11ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-10 18:20:13.948 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-10 18:20:13.948 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-10 18:20:13.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-10-10 18:20:13.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-10 18:20:13.948 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-10-10 18:20:13.948 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-metricimpconverter/.git/refs/remotes/origin/main'
+2024-10-10 18:20:13.948 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-10-10 18:20:13.948 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-10-10 18:20:13.948 [info] > git status -z -uall [6ms]
+2024-10-10 18:20:13.948 [info] > git diff --name-status -z --diff-filter=ADMR 3de81bc68b2943aa530f3fc3999cb32fbac332b6...refs/remotes/origin/main [11ms]
+2024-10-10 18:20:13.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 18:20:13.948 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-10 18:20:13.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-10-10 18:20:14.419 [info] > git show --textconv :controllers/convertHandler.js [8ms]
+2024-10-10 18:20:14.419 [info] > git ls-files --stage -- /workspace/boilerplate-project-metricimpconverter/controllers/convertHandler.js [4ms]
+2024-10-10 18:20:14.426 [info] > git cat-file -s 90273d29583cdf23f9a45b45e613064df0a1fa29 [3ms]
+2024-10-10 18:20:14.458 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-10 18:20:14.899 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-10-10 18:20:14.899 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-10 18:20:15.473 [info] > git config --get commit.template [21ms]
+2024-10-10 18:20:15.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-10 18:20:15.495 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-metricimpconverter/.git/refs/remotes/origin/main'
+2024-10-10 18:20:15.496 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-10-10 18:20:15.512 [info] > git status -z -uall [3ms]
+2024-10-10 18:20:15.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 18:20:15.532 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-10 18:20:15.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [38ms]
+2024-10-10 18:20:15.591 [info] > git ls-files --stage -- /workspace/boilerplate-project-metricimpconverter/controllers/convertHandler.js [3ms]
+2024-10-10 18:20:15.599 [info] > git cat-file -s 90273d29583cdf23f9a45b45e613064df0a1fa29 [3ms]
+2024-10-10 18:20:15.643 [info] > git show --textconv :controllers/convertHandler.js [3ms]

@@ -1,0 +1,66 @@
+[380ns] Shutting down all processes 
+[339.289µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.000857065s] Terminating process didn't finish, but had to be force killed 
+[15.001256885s] Terminating process node with PID 16288 (state: S, cmdlind: [node server.js] <nil>). 
+[15.001289645s] Terminating process node with PID 157 (state: S, cmdlind: [/ide/node /ide/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/gitpod/.cache/typescript/5.6 --enableTelemetry --typesMapLocation /ide/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation] <nil>). 
+[15.001335035s] Terminating process didn't finish, but had to be force killed 
+[15.001352095s] Terminating process bash with PID 225 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[15.001365675s] Terminating process didn't finish, but had to be force killed 
+[15.001384105s] Terminating process didn't finish, but had to be force killed 
+[15.001387085s] Terminating process bash with PID 83 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.001451065s] Terminating process npm run start with PID 16276 (state: S, cmdlind: [npm run start] <nil>). 
+[15.001455765s] Terminating process node with PID 203 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=125] <nil>). 
+[15.001458575s] Terminating process didn't finish, but had to be force killed 
+[15.001509735s] Terminating process node with PID 125 (state: S, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[15.001529415s] Terminating process node with PID 210 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20241017T165513] <nil>). 
+[15.001540465s] Terminating process didn't finish, but had to be force killed 
+[15.001563455s] Terminating process didn't finish, but had to be force killed 
+[15.001579365s] Terminating process didn't finish, but had to be force killed 
+[15.001623425s] Terminating process didn't finish, but had to be force killed 
+[15.001668985s] Terminating process sh with PID 16287 (state: S, cmdlind: [sh -c node server.js] <nil>). 
+[15.001680125s] Terminating process node with PID 143 (state: S, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript33333/8d1d0833f1e616947863/tscancellation-b78851a1c18a33525632.tmp* --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.001686545s] Terminating process didn't finish, but had to be force killed 
+[15.001695375s] Terminating process node with PID 2337 (state: S, cmdlind: [/ide/node /ide/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=125] <nil>). 
+[15.001825005s] Terminating process node with PID 67 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.001839495s] Terminating process node with PID 144 (state: S, cmdlind: [/ide/node --max-old-space-size=3072 /ide/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript33333/8d1d0833f1e616947863/tscancellation-25db841d49cf97b06383.tmp* --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc] <nil>). 
+[15.001854635s] Terminating process node with PID 324 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=125] <nil>). 
+[15.001906235s] Terminating process didn't finish, but had to be force killed 
+[15.001705105s] Terminating process node with PID 164 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[15.001931915s] Terminating process didn't finish, but had to be force killed 
+[15.001955775s] Terminating process didn't finish, but had to be force killed 
+[15.002002515s] Terminating process didn't finish, but had to be force killed 
+[15.001995775s] Terminating process didn't finish, but had to be force killed 
+[15.002262435s] Terminating process didn't finish, but had to be force killed 
+[15.002767525s] Couldn't obtain process information for PID 16287. 
+[15.002826685s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.004863285s] Terminating process didn't finish, but had to be force killed 
+[15.005188255s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.005199315s] Terminating process didn't finish, but had to be force killed 
+[15.005892124s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.006972404s] Terminating process didn't finish, but had to be force killed 
+[15.007386615s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.007407104s] Terminating process didn't finish, but had to be force killed 
+[15.007911144s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.007924484s] Terminating process didn't finish, but had to be force killed 
+[15.008344035s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.008356555s] Terminating process didn't finish, but had to be force killed 
+[15.008669684s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.008680995s] Terminating process didn't finish, but had to be force killed 
+[15.009327154s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.009348284s] Terminating process didn't finish, but had to be force killed 
+[15.009633714s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.009650024s] Terminating process didn't finish, but had to be force killed 
+[15.010159494s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.010183554s] Terminating process didn't finish, but had to be force killed 
+[15.011164184s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.011811984s] Terminating process didn't finish, but had to be force killed 
+[15.012189094s] Terminating process node with PID 210 (state: R, cmdlind: [] <nil>). 
+[15.012202704s] Terminating process didn't finish, but had to be force killed 
+[15.013330464s] Couldn't obtain process information for PID 16276. 
+[15.041388101s] Couldn't obtain process information for PID 203. 
+[15.041457631s] Couldn't obtain process information for PID 324. 
+[15.043362011s] Couldn't obtain process information for PID 143. 
+[15.05418811s] Couldn't obtain process information for PID 67. 
+[15.0545417s] Couldn't obtain process information for PID 164. 
+[15.05951101s] Couldn't obtain process information for PID 144. 
+[15.501386575s] Finished shutting down all processes. 

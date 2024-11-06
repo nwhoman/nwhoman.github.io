@@ -1,0 +1,33 @@
+2024-10-10 18:29:17.870 [info] [main] Log level: Info
+2024-10-10 18:29:17.870 [info] [main] Validating found git in: "git"
+2024-10-10 18:29:17.870 [info] [main] Using git "2.46.0" from "git"
+2024-10-10 18:29:17.870 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-10 18:29:17.870 [info] > git rev-parse --show-toplevel [82ms]
+2024-10-10 18:29:17.870 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-10-10 18:29:17.870 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-advancednode
+2024-10-10 18:29:17.870 [info] > git config --get commit.template [5ms]
+2024-10-10 18:29:17.870 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-10 18:29:17.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-10 18:29:17.870 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-10 18:29:17.870 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-advancednode/.git/refs/remotes/origin/main'
+2024-10-10 18:29:17.870 [info] > git rev-parse refs/remotes/origin/main [83ms]
+2024-10-10 18:29:17.870 [info] > git status -z -uall [294ms]
+2024-10-10 18:29:17.870 [info] > git rev-parse --show-toplevel [302ms]
+2024-10-10 18:29:17.870 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-10 18:29:17.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [84ms]
+2024-10-10 18:29:17.870 [info] > git config --get commit.template [112ms]
+2024-10-10 18:29:17.870 [info] > git config --local branch.main.vscode-merge-base [127ms]
+2024-10-10 18:29:17.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [68ms]
+2024-10-10 18:29:17.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2024-10-10 18:29:17.870 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-advancednode/.git/refs/remotes/origin/main'
+2024-10-10 18:29:17.870 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-10-10 18:29:17.870 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2024-10-10 18:29:17.870 [info] > git status -z -uall [72ms]
+2024-10-10 18:29:17.870 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [80ms]
+2024-10-10 18:29:17.870 [info] > git diff --name-status -z --diff-filter=ADMR f9f0b98e9ae11d1cf288379d833be86d2d0455c3...refs/remotes/origin/main [6ms]
+2024-10-10 18:29:17.870 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-10 18:29:17.871 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-10-10 18:29:17.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-10-10 18:29:18.470 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-10 18:29:19.459 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-10-10 18:29:19.459 [warning] [Git][config] git config failed: Failed to execute git

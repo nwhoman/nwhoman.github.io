@@ -1,0 +1,48 @@
+2024-10-15 18:15:07.435 [info] [main] Log level: Info
+2024-10-15 18:15:07.435 [info] [main] Validating found git in: "git"
+2024-10-15 18:15:07.435 [info] [main] Using git "2.46.0" from "git"
+2024-10-15 18:15:07.435 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-15 18:15:07.435 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-10-15 18:15:07.435 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-project-issuetracker
+2024-10-15 18:15:07.435 [info] > git config --get commit.template [6ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-15 18:15:07.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-15 18:15:07.435 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-issuetracker/.git/refs/remotes/origin/main'
+2024-10-15 18:15:07.435 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-15 18:15:07.435 [info] > git status -z -uall [9ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-15 18:15:07.435 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-10-15 18:15:07.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse --show-toplevel [25ms]
+2024-10-15 18:15:07.435 [info] > git config --get commit.template [18ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-15 18:15:07.435 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-15 18:15:07.435 [info] > git config --local branch.main.vscode-merge-base [18ms]
+2024-10-15 18:15:07.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [22ms]
+2024-10-15 18:15:07.435 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-10-15 18:15:07.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2024-10-15 18:15:07.435 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-issuetracker/.git/refs/remotes/origin/main'
+2024-10-15 18:15:07.435 [info] > git diff --name-status -z --diff-filter=ADMR 61f8902cff227aee224fa59d9497e9b9db08c5da...refs/remotes/origin/main [6ms]
+2024-10-15 18:15:07.435 [info] > git rev-parse refs/remotes/origin/main [151ms]
+2024-10-15 18:15:07.435 [info] > git status -z -uall [6ms]
+2024-10-15 18:15:07.435 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-10-15 18:15:07.740 [info] > git show --textconv :views/issue.html [6ms]
+2024-10-15 18:15:07.743 [info] > git ls-files --stage -- /workspace/boilerplate-project-issuetracker/views/issue.html [4ms]
+2024-10-15 18:15:07.751 [info] > git cat-file -s e1205d6e3612649b9ecb3372c73bd803be4be3d4 [3ms]
+2024-10-15 18:15:07.930 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-15 18:15:08.125 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-10-15 18:15:08.125 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-15 18:15:08.810 [info] > git config --get commit.template [3ms]
+2024-10-15 18:15:08.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-15 18:15:08.814 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-issuetracker/.git/refs/remotes/origin/main'
+2024-10-15 18:15:08.816 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-15 18:15:08.823 [info] > git status -z -uall [4ms]
+2024-10-15 18:15:08.825 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-15 18:15:08.942 [info] > git ls-files --stage -- /workspace/boilerplate-project-issuetracker/views/issue.html [2ms]
+2024-10-15 18:15:08.949 [info] > git cat-file -s e1205d6e3612649b9ecb3372c73bd803be4be3d4 [2ms]
+2024-10-15 18:15:08.986 [info] > git show --textconv :views/issue.html [3ms]
+2024-10-15 18:17:58.560 [info] > git show --textconv :server.js [6ms]
+2024-10-15 18:17:58.562 [info] > git ls-files --stage -- /workspace/boilerplate-project-issuetracker/server.js [3ms]
+2024-10-15 18:17:58.570 [info] > git cat-file -s 7d63e9fc11eeba9d2002b61cd055f1408b4a9571 [3ms]

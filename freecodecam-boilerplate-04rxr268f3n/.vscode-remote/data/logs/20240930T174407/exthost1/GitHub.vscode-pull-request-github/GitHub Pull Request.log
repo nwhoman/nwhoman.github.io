@@ -1,0 +1,15 @@
+2024-09-30 17:44:13.060 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-09-30 17:44:13.060 [info] Activation> Extension version: 0.96.0
+2024-09-30 17:44:14.480 [info] Looking for git repository
+2024-09-30 17:44:14.480 [info] Found 0 repositories during activation
+2024-09-30 17:44:14.480 [info] Git repository found, initializing review manager and pr tree view.
+2024-09-30 17:44:14.485 [info] Registering git provider
+2024-09-30 17:44:14.485 [info] Review+0> Validate state in progress
+2024-09-30 17:44:14.485 [info] Review+0> Validating state...
+2024-09-30 17:44:14.671 [info] Found GitHub remote for folder /workspace/boilerplate-project-exercisetracker
+2024-09-30 17:44:14.673 [info] Trying to use globalState for assignableUsers.
+2024-09-30 17:44:14.682 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-09-30 17:44:14.683 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-09-30 17:44:14.722 [info] GlobalState does not exist for assignableUsers.
+2024-09-30 17:50:44.196 [info] Repo state for file:///workspace/boilerplate-project-exercisetracker changed.
+2024-09-30 17:50:44.196 [info] Repo file:///workspace/boilerplate-project-exercisetracker has already been setup.

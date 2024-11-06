@@ -1,0 +1,11 @@
+2024-09-21 20:34:12.218 [info] 
+
+
+
+
+2024-09-21 20:34:12.237 [info] Extension host agent started.
+2024-09-21 20:34:12.288 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-09-21 20:34:12.288 [info] Extension 'github.vscode-pull-request-github' v0.96.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-09-21 20:34:13.241 [info] [192.168.179.202][1284ddd2][ManagementConnection] New connection established.
+2024-09-21 20:34:13.418 [info] [192.168.194.137][3669494d][ExtensionHostConnection] New connection established.
+2024-09-21 20:34:13.537 [info] [192.168.194.137][3669494d][ExtensionHostConnection] <121> Launched Extension Host Process.

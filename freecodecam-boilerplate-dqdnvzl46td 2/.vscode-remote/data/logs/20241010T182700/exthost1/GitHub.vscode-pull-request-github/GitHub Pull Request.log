@@ -1,0 +1,15 @@
+2024-10-10 18:27:07.799 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-10-10 18:27:07.799 [info] Activation> Extension version: 0.98.0
+2024-10-10 18:27:10.551 [info] Looking for git repository
+2024-10-10 18:27:10.551 [info] Found 0 repositories during activation
+2024-10-10 18:27:10.551 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-10 18:27:10.554 [info] Registering git provider
+2024-10-10 18:27:10.554 [info] Review+0> Validate state in progress
+2024-10-10 18:27:10.554 [info] Review+0> Validating state...
+2024-10-10 18:27:10.647 [info] Found GitHub remote for folder /workspace/boilerplate-advancednode
+2024-10-10 18:27:10.649 [info] Trying to use globalState for assignableUsers.
+2024-10-10 18:27:10.663 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-10 18:27:10.664 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-10 18:27:10.770 [info] GlobalState does not exist for assignableUsers.
+2024-10-10 18:27:18.533 [info] Repo state for file:///workspace/boilerplate-advancednode changed.
+2024-10-10 18:27:18.533 [info] Repo file:///workspace/boilerplate-advancednode has already been setup.

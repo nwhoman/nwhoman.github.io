@@ -1,0 +1,59 @@
+2024-09-20 22:20:01.896 [info] [main] Log level: Info
+2024-09-20 22:20:01.896 [info] [main] Validating found git in: "git"
+2024-09-20 22:20:01.896 [info] [main] Using git "2.46.0" from "git"
+2024-09-20 22:20:01.896 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-20 22:20:01.896 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-20 22:20:01.896 [info] > git rev-parse --git-dir --git-common-dir [117ms]
+2024-09-20 22:20:01.896 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-project-timestamp
+2024-09-20 22:20:01.896 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-20 22:20:01.896 [info] > git config --get commit.template [13ms]
+2024-09-20 22:20:01.896 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-20 22:20:01.896 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-20 22:20:01.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-20 22:20:01.896 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-timestamp/.git/refs/remotes/origin/main'
+2024-09-20 22:20:01.896 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-09-20 22:20:01.896 [info] > git status -z -uall [3ms]
+2024-09-20 22:20:01.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-20 22:20:01.896 [info] > git config --get commit.template [5ms]
+2024-09-20 22:20:01.896 [info] > git config --local branch.main.vscode-merge-base [11ms]
+2024-09-20 22:20:01.896 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-20 22:20:01.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-09-20 22:20:01.896 [info] > git reflog main --grep-reflog=branch: Created from *. [114ms]
+2024-09-20 22:20:01.896 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-timestamp/.git/refs/remotes/origin/main'
+2024-09-20 22:20:01.896 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2024-09-20 22:20:01.896 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-09-20 22:20:01.896 [info] > git status -z -uall [4ms]
+2024-09-20 22:20:01.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2024-09-20 22:20:01.903 [info] > git config --local branch.main.vscode-merge-base origin/main [8ms]
+2024-09-20 22:20:01.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-20 22:20:01.913 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-20 22:20:01.917 [info] > git config --get commit.template [5ms]
+2024-09-20 22:20:01.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-09-20 22:20:01.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-20 22:20:01.930 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-timestamp/.git/refs/remotes/origin/main'
+2024-09-20 22:20:01.931 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-09-20 22:20:01.936 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-09-20 22:20:01.941 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-09-20 22:20:01.946 [info] > git status -z -uall [6ms]
+2024-09-20 22:20:01.952 [info] > git diff --name-status -z --diff-filter=ADMR ece2ea1936116eda48f9278e10ec48a972d0fdca...refs/remotes/origin/main [6ms]
+2024-09-20 22:20:01.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-20 22:20:01.987 [info] > git config --local branch.main.vscode-merge-base [31ms]
+2024-09-20 22:20:01.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-09-20 22:20:02.394 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-20 22:20:02.485 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-09-20 22:20:02.485 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-20 22:20:03.032 [info] > git config --get commit.template [5ms]
+2024-09-20 22:20:03.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-20 22:20:03.038 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-timestamp/.git/refs/remotes/origin/main'
+2024-09-20 22:20:03.040 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-20 22:20:03.046 [info] > git status -z -uall [3ms]
+2024-09-20 22:20:03.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-20 22:20:03.058 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-20 22:20:03.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-20 22:24:25.299 [info] > git show --textconv :index.js [5ms]
+2024-09-20 22:24:25.301 [info] > git ls-files --stage -- /workspace/boilerplate-project-timestamp/index.js [3ms]
+2024-09-20 22:24:25.307 [info] > git cat-file -s bde5ff7eaebbdae35fec2010f286bd47fbd305e0 [1ms]
+2024-09-20 22:24:29.180 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-20 22:27:30.375 [info] > git show --textconv :views/index.html [24ms]
+2024-09-20 22:27:30.376 [info] > git ls-files --stage -- /workspace/boilerplate-project-timestamp/views/index.html [2ms]
+2024-09-20 22:27:30.382 [info] > git cat-file -s ebfc7c6e9c7cca4f71b29dc7b5b4e31a0928c0db [2ms]

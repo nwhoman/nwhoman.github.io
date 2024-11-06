@@ -1,0 +1,31 @@
+2024-09-25 21:04:43.238 [info] 
+
+
+
+
+2024-09-25 21:04:43.257 [info] Extension host agent started.
+2024-09-25 21:04:43.312 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-09-25 21:04:43.312 [info] Extension 'github.vscode-pull-request-github' v0.96.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-09-25 21:04:44.685 [info] [192.168.155.75][f0a8757d][ManagementConnection] New connection established.
+2024-09-25 21:04:44.766 [info] [192.168.155.75][df0eb518][ExtensionHostConnection] New connection established.
+2024-09-25 21:04:44.820 [info] [192.168.155.75][df0eb518][ExtensionHostConnection] <135> Launched Extension Host Process.
+2024-09-25 21:17:48.754 [info] [192.168.194.137][df0eb518][ExtensionHostConnection] The client has reconnected.
+2024-09-25 21:17:48.756 [info] [192.168.155.75][f0a8757d][ManagementConnection] The client has reconnected.
+2024-09-25 21:34:55.252 [info] [192.168.155.75][df0eb518][ExtensionHostConnection] The client has reconnected.
+2024-09-25 21:34:55.340 [info] [192.168.155.75][f0a8757d][ManagementConnection] The client has reconnected.
+2024-09-25 22:05:45.452 [info] [192.168.155.75][f0a8757d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-25 22:05:46.649 [info] [192.168.194.137][97e61ba1][ManagementConnection] New connection established.
+2024-09-25 22:05:46.777 [info] [192.168.179.202][675b1789][ExtensionHostConnection] New connection established.
+2024-09-25 22:05:46.788 [info] [192.168.179.202][675b1789][ExtensionHostConnection] <3191> Launched Extension Host Process.
+2024-09-25 22:34:02.681 [info] [192.168.179.202][97e61ba1][ManagementConnection] The client has reconnected.
+2024-09-25 22:34:02.683 [info] [192.168.179.202][675b1789][ExtensionHostConnection] The client has reconnected.
+2024-09-26 00:07:58.853 [info] [192.168.179.202][97e61ba1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-26 00:08:00.363 [info] [192.168.179.202][809cdb9d][ManagementConnection] New connection established.
+2024-09-26 00:08:00.558 [info] [192.168.194.137][fe0392e1][ExtensionHostConnection] New connection established.
+2024-09-26 00:08:00.564 [info] [192.168.194.137][fe0392e1][ExtensionHostConnection] <10109> Launched Extension Host Process.
+2024-09-26 00:33:30.741 [info] [192.168.179.202][809cdb9d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-26 01:04:54.211 [info] [192.168.179.202][809cdb9d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-26 01:04:54.211 [info] [192.168.155.75][809cdb9d][ManagementConnection] The client has reconnected.
+2024-09-26 01:04:54.402 [info] [192.168.179.202][fe0392e1][ExtensionHostConnection] The client has reconnected.
+2024-09-26 01:09:54.427 [info] [192.168.179.202][675b1789][ExtensionHostConnection] <3191> Extension Host Process exited with code: 0, signal: null.
+2024-09-26 01:09:54.533 [info] [192.168.155.75][df0eb518][ExtensionHostConnection] <135> Extension Host Process exited with code: 0, signal: null.

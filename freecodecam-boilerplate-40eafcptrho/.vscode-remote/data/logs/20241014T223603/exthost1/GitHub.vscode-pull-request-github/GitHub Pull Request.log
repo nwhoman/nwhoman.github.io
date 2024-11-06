@@ -1,0 +1,21 @@
+2024-10-14 22:36:09.182 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-10-14 22:36:09.182 [info] Activation> Extension version: 0.98.0
+2024-10-14 22:36:10.105 [info] Looking for git repository
+2024-10-14 22:36:10.105 [info] Found 0 repositories during activation
+2024-10-14 22:36:10.105 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-14 22:36:10.110 [info] Registering git provider
+2024-10-14 22:36:10.110 [info] Review+0> Validate state in progress
+2024-10-14 22:36:10.110 [info] Review+0> Validating state...
+2024-10-14 22:36:10.176 [info] Found GitHub remote for folder /workspace/boilerplate-project-metricimpconverter
+2024-10-14 22:36:10.177 [info] Trying to use globalState for assignableUsers.
+2024-10-14 22:36:10.184 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-14 22:36:10.185 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-14 22:36:10.220 [info] GlobalState does not exist for assignableUsers.
+2024-10-14 22:36:54.723 [info] Repo state for file:///workspace/boilerplate-project-metricimpconverter changed.
+2024-10-14 22:36:54.724 [info] Repo file:///workspace/boilerplate-project-metricimpconverter has already been setup.
+2024-10-14 22:43:38.485 [info] Review+0> Validate state in progress
+2024-10-14 22:43:38.485 [info] Review+0> Validating state...
+2024-10-14 22:43:38.537 [info] Found GitHub remote for folder /workspace/boilerplate-project-metricimpconverter
+2024-10-14 22:43:38.538 [info] Using in-memory cached assignable users.
+2024-10-14 22:43:38.547 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-14 22:43:38.547 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

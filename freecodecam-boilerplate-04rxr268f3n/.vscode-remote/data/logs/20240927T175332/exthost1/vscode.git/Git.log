@@ -1,0 +1,56 @@
+2024-09-27 17:53:36.788 [info] [main] Log level: Info
+2024-09-27 17:53:36.788 [info] [main] Validating found git in: "git"
+2024-09-27 17:53:36.788 [info] [main] Using git "2.46.0" from "git"
+2024-09-27 17:53:36.788 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-27 17:53:36.788 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-27 17:53:36.788 [info] > git rev-parse --git-dir --git-common-dir [115ms]
+2024-09-27 17:53:36.788 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-project-exercisetracker
+2024-09-27 17:53:36.788 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-27 17:53:36.788 [info] > git config --get commit.template [15ms]
+2024-09-27 17:53:36.788 [info] > git rev-parse --show-toplevel [69ms]
+2024-09-27 17:53:36.788 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-27 17:53:36.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2024-09-27 17:53:36.788 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-exercisetracker/.git/refs/remotes/origin/main'
+2024-09-27 17:53:36.788 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-27 17:53:36.788 [info] > git status -z -uall [6ms]
+2024-09-27 17:53:36.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-09-27 17:53:36.788 [info] > git config --get commit.template [12ms]
+2024-09-27 17:53:36.788 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-27 17:53:36.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-09-27 17:53:36.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-09-27 17:53:36.788 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-exercisetracker/.git/refs/remotes/origin/main'
+2024-09-27 17:53:36.789 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2024-09-27 17:53:36.794 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-09-27 17:53:36.801 [info] > git status -z -uall [4ms]
+2024-09-27 17:53:36.801 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [8ms]
+2024-09-27 17:53:36.813 [info] > git diff --name-status -z --diff-filter=ADMR 4d33185a8ee1c5502748c699f4549013ade561fb...refs/remotes/origin/main [8ms]
+2024-09-27 17:53:36.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-27 17:53:36.820 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-27 17:53:36.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-09-27 17:53:37.351 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-27 17:53:37.352 [info] > git show --textconv :exercise_model.js [6ms]
+2024-09-27 17:53:37.352 [info] > git ls-files --stage -- /workspace/boilerplate-project-exercisetracker/exercise_model.js [3ms]
+2024-09-27 17:53:37.748 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-09-27 17:53:37.748 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-27 18:08:43.950 [info] > git show --textconv :index.js [8ms]
+2024-09-27 18:08:43.952 [info] > git ls-files --stage -- /workspace/boilerplate-project-exercisetracker/index.js [4ms]
+2024-09-27 18:08:43.959 [info] > git cat-file -s e565ee03eec7b6ba7c535f236164f03d40281fd9 [2ms]
+2024-09-27 18:15:05.138 [info] > git config --get commit.template [6ms]
+2024-09-27 18:15:05.139 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-27 18:15:05.142 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-exercisetracker/.git/refs/remotes/origin/main'
+2024-09-27 18:15:05.144 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-27 18:15:05.150 [info] > git status -z -uall [3ms]
+2024-09-27 18:15:05.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-27 18:15:05.161 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-27 18:15:05.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-09-27 18:15:05.170 [info] > git ls-files --stage -- /workspace/boilerplate-project-exercisetracker/index.js [2ms]
+2024-09-27 18:15:05.176 [info] > git cat-file -s e565ee03eec7b6ba7c535f236164f03d40281fd9 [2ms]
+2024-09-27 18:15:05.214 [info] > git show --textconv :index.js [2ms]
+2024-09-27 18:15:10.163 [info] > git config --get commit.template [4ms]
+2024-09-27 18:15:10.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-27 18:15:10.168 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-project-exercisetracker/.git/refs/remotes/origin/main'
+2024-09-27 18:15:10.170 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-27 18:15:10.175 [info] > git status -z -uall [2ms]
+2024-09-27 18:15:10.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-27 18:15:10.186 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-27 18:15:10.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]

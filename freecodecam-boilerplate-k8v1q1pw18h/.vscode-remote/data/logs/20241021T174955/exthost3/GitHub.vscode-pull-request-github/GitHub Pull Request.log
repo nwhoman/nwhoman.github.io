@@ -1,0 +1,15 @@
+2024-10-21 21:28:46.190 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-10-21 21:28:46.190 [info] Activation> Extension version: 0.98.0
+2024-10-21 21:28:46.972 [info] Looking for git repository
+2024-10-21 21:28:46.972 [info] Found 0 repositories during activation
+2024-10-21 21:28:46.972 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-21 21:28:46.976 [info] Registering git provider
+2024-10-21 21:28:46.976 [info] Review+0> Validate state in progress
+2024-10-21 21:28:46.976 [info] Review+0> Validating state...
+2024-10-21 21:28:47.021 [info] Found GitHub remote for folder /workspace/boilerplate-project-library
+2024-10-21 21:28:47.023 [info] Trying to use globalState for assignableUsers.
+2024-10-21 21:28:47.030 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-21 21:28:47.031 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-21 21:28:47.082 [info] GlobalState does not exist for assignableUsers.
+2024-10-21 21:40:17.376 [info] Repo state for file:///workspace/boilerplate-project-library changed.
+2024-10-21 21:40:17.376 [info] Repo file:///workspace/boilerplate-project-library has already been setup.

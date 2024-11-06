@@ -1,0 +1,21 @@
+2024-10-09 17:34:38.295 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-10-09 17:34:38.295 [info] Activation> Extension version: 0.98.0
+2024-10-09 17:34:42.799 [info] Looking for git repository
+2024-10-09 17:34:42.799 [info] Found 0 repositories during activation
+2024-10-09 17:34:42.799 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-09 17:34:42.811 [info] Registering git provider
+2024-10-09 17:34:42.811 [info] Review+0> Validate state in progress
+2024-10-09 17:34:42.811 [info] Review+0> Validating state...
+2024-10-09 17:34:42.896 [info] Found GitHub remote for folder /workspace/boilerplate-advancednode
+2024-10-09 17:34:42.898 [info] Trying to use globalState for assignableUsers.
+2024-10-09 17:34:42.905 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-09 17:34:42.905 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-09 17:34:43.019 [info] GlobalState does not exist for assignableUsers.
+2024-10-09 17:36:17.992 [info] Repo state for file:///workspace/boilerplate-advancednode changed.
+2024-10-09 17:36:17.992 [info] Repo file:///workspace/boilerplate-advancednode has already been setup.
+2024-10-09 22:09:41.869 [info] Review+0> Validate state in progress
+2024-10-09 22:09:41.869 [info] Review+0> Validating state...
+2024-10-09 22:09:41.928 [info] Found GitHub remote for folder /workspace/boilerplate-advancednode
+2024-10-09 22:09:41.929 [info] Using in-memory cached assignable users.
+2024-10-09 22:09:41.941 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-09 22:09:41.941 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

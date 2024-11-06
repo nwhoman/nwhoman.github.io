@@ -1,0 +1,13 @@
+2024-10-07 17:16:18.833 [info] 
+
+
+
+
+2024-10-07 17:16:18.864 [info] Extension host agent started.
+2024-10-07 17:16:19.000 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-10-07 17:16:19.003 [info] Extension 'github.vscode-pull-request-github' v0.98.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-10-07 17:16:19.130 [info] Deleted uninstalled extension from disk github.vscode-pull-request-github /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.96.0-universal
+2024-10-07 17:16:20.268 [info] [192.168.194.137][1b874c6d][ManagementConnection] New connection established.
+2024-10-07 17:16:20.551 [info] [192.168.155.75][54fed5eb][ExtensionHostConnection] New connection established.
+2024-10-07 17:16:20.634 [info] [192.168.155.75][54fed5eb][ExtensionHostConnection] <123> Launched Extension Host Process.
+2024-10-07 17:36:04.591 [info] [192.168.194.137][1b874c6d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

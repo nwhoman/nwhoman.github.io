@@ -1,0 +1,18 @@
+2024-09-27 17:53:32.234 [info] 
+
+
+
+
+2024-09-27 17:53:32.257 [info] Extension host agent started.
+2024-09-27 17:53:32.313 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-09-27 17:53:32.313 [info] Extension 'github.vscode-pull-request-github' v0.96.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-09-27 17:53:34.137 [info] [192.168.155.75][5b3048ef][ManagementConnection] New connection established.
+2024-09-27 17:53:34.502 [info] [192.168.179.202][05a618d4][ExtensionHostConnection] New connection established.
+2024-09-27 17:53:34.575 [info] [192.168.179.202][05a618d4][ExtensionHostConnection] <126> Launched Extension Host Process.
+2024-09-27 18:37:46.584 [info] [192.168.179.202][05a618d4][ExtensionHostConnection] The client has reconnected.
+2024-09-27 18:38:25.518 [info] [192.168.155.75][5b3048ef][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-27 18:55:36.749 [info] [192.168.155.75][5b3048ef][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-27 18:55:36.749 [info] [192.168.155.75][05a618d4][ExtensionHostConnection] The client has reconnected.
+2024-09-27 18:55:36.760 [info] [192.168.155.75][5b3048ef][ManagementConnection] The client has reconnected.
+2024-09-27 19:01:37.265 [info] [192.168.155.75][05a618d4][ExtensionHostConnection] The client has reconnected.
+2024-09-27 19:01:37.266 [info] [192.168.194.137][5b3048ef][ManagementConnection] The client has reconnected.

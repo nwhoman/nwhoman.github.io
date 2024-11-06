@@ -1,0 +1,27 @@
+2024-09-24 16:49:16.632 [info] Extension host with pid 122 started
+2024-09-24 16:49:16.632 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock'
+2024-09-24 16:49:16.635 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-24 16:49:16.636 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock': The pid 163 appears to be gone.
+2024-09-24 16:49:16.636 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock': Deleting a stale lock.
+2024-09-24 16:49:16.642 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/44ab1bab/vscode.lock': Lock acquired.
+2024-09-24 16:49:16.789 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-24 16:49:16.790 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-09-24 16:49:16.791 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2024-09-24 16:49:16.982 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-24 16:49:16.983 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2024-09-24 16:49:17.101 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-09-24 16:49:17.200 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-24 16:49:17.200 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-24 16:49:17.972 [info] Eager extensions activated
+2024-09-24 16:49:17.972 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-24 16:49:17.972 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-24 16:49:17.973 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-09-24 16:49:18.310 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-09-24 16:49:18.580 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-09-24 16:49:19.093 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-09-24 16:49:19.095 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-09-24 16:49:19.951 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-09-24 16:49:22.790 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-24 16:49:22.790 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-24 16:49:22.790 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-24 18:02:53.862 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

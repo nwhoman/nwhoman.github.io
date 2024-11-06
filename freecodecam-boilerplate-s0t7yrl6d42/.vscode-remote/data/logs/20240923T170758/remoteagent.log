@@ -1,0 +1,21 @@
+2024-09-23 17:07:58.580 [info] 
+
+
+
+
+2024-09-23 17:07:58.601 [info] Extension host agent started.
+2024-09-23 17:07:58.666 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-09-23 17:07:58.666 [info] Extension 'github.vscode-pull-request-github' v0.96.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-09-23 17:08:00.361 [info] [192.168.179.202][a76d865a][ManagementConnection] New connection established.
+2024-09-23 17:08:00.378 [info] [192.168.155.75][bb012f02][ExtensionHostConnection] New connection established.
+2024-09-23 17:08:00.439 [info] [192.168.155.75][bb012f02][ExtensionHostConnection] <122> Launched Extension Host Process.
+2024-09-23 17:42:38.967 [info] [192.168.179.202][a76d865a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-23 17:45:45.471 [info] [192.168.179.202][a76d865a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-23 17:45:45.472 [info] [192.168.179.202][a76d865a][ManagementConnection] The client has reconnected.
+2024-09-23 17:46:21.149 [info] [192.168.155.75][bb012f02][ExtensionHostConnection] The client has reconnected.
+2024-09-23 17:46:21.208 [info] [192.168.155.75][bb012f02][ExtensionHostConnection] The client has reconnected.
+2024-09-23 18:14:12.123 [info] [192.168.155.75][a76d865a][ManagementConnection] The client has reconnected.
+2024-09-23 20:09:17.296 [info] [192.168.155.75][a76d865a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-23 20:09:39.225 [info] [192.168.155.75][a76d865a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-09-23 20:09:39.226 [info] [192.168.179.202][a76d865a][ManagementConnection] The client has reconnected.
+2024-09-23 20:09:39.314 [info] [192.168.179.202][bb012f02][ExtensionHostConnection] The client has reconnected.
